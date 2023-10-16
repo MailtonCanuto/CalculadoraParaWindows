@@ -46,7 +46,7 @@
             this.btnDiminuicao = new System.Windows.Forms.Button();
             this.btnAdicao = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblOperacao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtResultado
@@ -230,20 +230,21 @@
             this.btnLimpar.UseVisualStyleBackColor = true;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
-            // label2
+            // lblOperacao
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
-            this.label2.TabIndex = 19;
+            this.lblOperacao.AutoSize = true;
+            this.lblOperacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOperacao.Location = new System.Drawing.Point(20, 20);
+            this.lblOperacao.Name = "lblOperacao";
+            this.lblOperacao.Size = new System.Drawing.Size(0, 13);
+            this.lblOperacao.TabIndex = 19;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(296, 325);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblOperacao);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnAdicao);
             this.Controls.Add(this.btnDiminuicao);
@@ -290,7 +291,7 @@
         private System.Windows.Forms.Button btnDiminuicao;
         private System.Windows.Forms.Button btnAdicao;
         private System.Windows.Forms.Button btnLimpar;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblOperacao;
     }
 }
 
