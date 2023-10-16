@@ -135,5 +135,11 @@ namespace Calculadora
         {
             txtResultado.Text = "";
         }
+
+        private void btnPonto_Click(object sender, EventArgs e)
+        {
+            if (!txtResultado.Text.Contains(","))
+                txtResultado.Text += ",";
+        }
     }
 }
